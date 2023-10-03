@@ -11,7 +11,6 @@ class ScheduleTools:
 
   def team_games_in_many_weeks(self, week_keys_list, season):
     """ Run team_games_in_week multiple times, aggregating results """
-    print('running weeks', week_keys_list)
     team_counts = {}
     for week_key in week_keys_list:
       self.team_games_in_week(week_key, season, team_counts=team_counts)
@@ -39,7 +38,6 @@ class ScheduleTools:
 
   def view_counts(self, team_counts):
     """ Print out the counts object (output of team_games_in_week functions)"""
-    # print(json.dumps(team_counts, sort_keys=True, indent=2, default=str))
 
     # Sort teams first by offdays, then by total games, then alphabetically
     sorted_teams = sorted(
