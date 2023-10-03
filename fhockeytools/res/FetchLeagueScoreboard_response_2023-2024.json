@@ -1,0 +1,931 @@
+{
+  "schedulePeriod": {
+    "ordinal": 1,
+    "low": {
+      "duration": "DAY",
+      "ordinal": 1,
+      "startEpochMilli": "1696932000000"
+    },
+    "high": {
+      "duration": "DAY",
+      "ordinal": 6,
+      "startEpochMilli": "1697364000000"
+    },
+    "value": 1
+  },
+  "eligibleSchedulePeriods": [
+    {
+      "ordinal": 1,
+      "low": {
+        "duration": "DAY",
+        "ordinal": 1,
+        "startEpochMilli": "1696932000000"
+      },
+      "high": {
+        "duration": "DAY",
+        "ordinal": 6,
+        "startEpochMilli": "1697364000000"
+      },
+      "value": 1
+    },
+    {
+      "ordinal": 2,
+      "low": {
+        "duration": "DAY",
+        "ordinal": 7,
+        "startEpochMilli": "1697450400000"
+      },
+      "high": {
+        "duration": "DAY",
+        "ordinal": 13,
+        "startEpochMilli": "1697968800000"
+      },
+      "value": 7
+    },
+    {
+      "ordinal": 3,
+      "low": {
+        "duration": "DAY",
+        "ordinal": 14,
+        "startEpochMilli": "1698055200000"
+      },
+      "high": {
+        "duration": "DAY",
+        "ordinal": 20,
+        "startEpochMilli": "1698573600000"
+      },
+      "value": 14
+    },
+    {
+      "ordinal": 4,
+      "low": {
+        "duration": "DAY",
+        "ordinal": 21,
+        "startEpochMilli": "1698660000000"
+      },
+      "high": {
+        "duration": "DAY",
+        "ordinal": 27,
+        "startEpochMilli": "1699182000000"
+      },
+      "value": 21
+    },
+    {
+      "ordinal": 5,
+      "low": {
+        "duration": "DAY",
+        "ordinal": 28,
+        "startEpochMilli": "1699268400000"
+      },
+      "high": {
+        "duration": "DAY",
+        "ordinal": 34,
+        "startEpochMilli": "1699786800000"
+      },
+      "value": 28
+    },
+    {
+      "ordinal": 6,
+      "low": {
+        "duration": "DAY",
+        "ordinal": 35,
+        "startEpochMilli": "1699873200000"
+      },
+      "high": {
+        "duration": "DAY",
+        "ordinal": 41,
+        "startEpochMilli": "1700391600000"
+      },
+      "value": 35
+    },
+    {
+      "ordinal": 7,
+      "low": {
+        "duration": "DAY",
+        "ordinal": 42,
+        "startEpochMilli": "1700478000000"
+      },
+      "high": {
+        "duration": "DAY",
+        "ordinal": 48,
+        "startEpochMilli": "1700996400000"
+      },
+      "value": 42
+    },
+    {
+      "ordinal": 8,
+      "low": {
+        "duration": "DAY",
+        "ordinal": 49,
+        "startEpochMilli": "1701082800000"
+      },
+      "high": {
+        "duration": "DAY",
+        "ordinal": 55,
+        "startEpochMilli": "1701601200000"
+      },
+      "value": 49
+    },
+    {
+      "ordinal": 9,
+      "low": {
+        "duration": "DAY",
+        "ordinal": 56,
+        "startEpochMilli": "1701687600000"
+      },
+      "high": {
+        "duration": "DAY",
+        "ordinal": 62,
+        "startEpochMilli": "1702206000000"
+      },
+      "value": 56
+    },
+    {
+      "ordinal": 10,
+      "low": {
+        "duration": "DAY",
+        "ordinal": 63,
+        "startEpochMilli": "1702292400000"
+      },
+      "high": {
+        "duration": "DAY",
+        "ordinal": 69,
+        "startEpochMilli": "1702810800000"
+      },
+      "value": 63
+    },
+    {
+      "ordinal": 11,
+      "low": {
+        "duration": "DAY",
+        "ordinal": 70,
+        "startEpochMilli": "1702897200000"
+      },
+      "high": {
+        "duration": "DAY",
+        "ordinal": 76,
+        "startEpochMilli": "1703415600000"
+      },
+      "value": 70
+    },
+    {
+      "ordinal": 12,
+      "low": {
+        "duration": "DAY",
+        "ordinal": 77,
+        "startEpochMilli": "1703502000000"
+      },
+      "high": {
+        "duration": "DAY",
+        "ordinal": 83,
+        "startEpochMilli": "1704020400000"
+      },
+      "value": 77
+    },
+    {
+      "ordinal": 13,
+      "low": {
+        "duration": "DAY",
+        "ordinal": 84,
+        "startEpochMilli": "1704106800000"
+      },
+      "high": {
+        "duration": "DAY",
+        "ordinal": 90,
+        "startEpochMilli": "1704625200000"
+      },
+      "value": 84
+    },
+    {
+      "ordinal": 14,
+      "low": {
+        "duration": "DAY",
+        "ordinal": 91,
+        "startEpochMilli": "1704711600000"
+      },
+      "high": {
+        "duration": "DAY",
+        "ordinal": 97,
+        "startEpochMilli": "1705230000000"
+      },
+      "value": 91
+    },
+    {
+      "ordinal": 15,
+      "low": {
+        "duration": "DAY",
+        "ordinal": 98,
+        "startEpochMilli": "1705316400000"
+      },
+      "high": {
+        "duration": "DAY",
+        "ordinal": 104,
+        "startEpochMilli": "1705834800000"
+      },
+      "value": 98
+    },
+    {
+      "ordinal": 16,
+      "low": {
+        "duration": "DAY",
+        "ordinal": 105,
+        "startEpochMilli": "1705921200000"
+      },
+      "high": {
+        "duration": "DAY",
+        "ordinal": 111,
+        "startEpochMilli": "1706439600000"
+      },
+      "value": 105
+    },
+    {
+      "ordinal": 17,
+      "low": {
+        "duration": "DAY",
+        "ordinal": 112,
+        "startEpochMilli": "1706526000000"
+      },
+      "high": {
+        "duration": "DAY",
+        "ordinal": 125,
+        "startEpochMilli": "1707649200000"
+      },
+      "value": 112
+    },
+    {
+      "ordinal": 18,
+      "low": {
+        "duration": "DAY",
+        "ordinal": 126,
+        "startEpochMilli": "1707735600000"
+      },
+      "high": {
+        "duration": "DAY",
+        "ordinal": 132,
+        "startEpochMilli": "1708254000000"
+      },
+      "value": 126
+    },
+    {
+      "ordinal": 19,
+      "low": {
+        "duration": "DAY",
+        "ordinal": 133,
+        "startEpochMilli": "1708340400000"
+      },
+      "high": {
+        "duration": "DAY",
+        "ordinal": 139,
+        "startEpochMilli": "1708858800000"
+      },
+      "value": 133
+    },
+    {
+      "ordinal": 20,
+      "low": {
+        "duration": "DAY",
+        "ordinal": 140,
+        "startEpochMilli": "1708945200000"
+      },
+      "high": {
+        "duration": "DAY",
+        "ordinal": 146,
+        "startEpochMilli": "1709463600000"
+      },
+      "value": 140
+    },
+    {
+      "ordinal": 21,
+      "low": {
+        "duration": "DAY",
+        "ordinal": 147,
+        "startEpochMilli": "1709550000000"
+      },
+      "high": {
+        "duration": "DAY",
+        "ordinal": 153,
+        "startEpochMilli": "1710064800000"
+      },
+      "value": 147
+    },
+    {
+      "ordinal": 22,
+      "low": {
+        "duration": "DAY",
+        "ordinal": 154,
+        "startEpochMilli": "1710151200000"
+      },
+      "high": {
+        "duration": "DAY",
+        "ordinal": 160,
+        "startEpochMilli": "1710669600000"
+      },
+      "value": 154
+    },
+    {
+      "ordinal": 23,
+      "low": {
+        "duration": "DAY",
+        "ordinal": 161,
+        "startEpochMilli": "1710756000000"
+      },
+      "high": {
+        "duration": "DAY",
+        "ordinal": 167,
+        "startEpochMilli": "1711274400000"
+      },
+      "value": 161
+    },
+    {
+      "ordinal": 24,
+      "low": {
+        "duration": "DAY",
+        "ordinal": 168,
+        "startEpochMilli": "1711360800000"
+      },
+      "high": {
+        "duration": "DAY",
+        "ordinal": 174,
+        "startEpochMilli": "1711879200000"
+      },
+      "value": 168
+    },
+    {
+      "ordinal": 25,
+      "low": {
+        "duration": "DAY",
+        "ordinal": 175,
+        "startEpochMilli": "1711965600000"
+      },
+      "high": {
+        "duration": "DAY",
+        "ordinal": 181,
+        "startEpochMilli": "1712484000000"
+      },
+      "value": 175
+    }
+  ],
+  "games": [
+    {
+      "id": "3078103",
+      "away": {
+        "id": 63213,
+        "name": "#corn-general",
+        "sport": "NHL",
+        "logoUrl": "https://s3.amazonaws.com/fleaflicker/t63213_3_150x150.jpg",
+        "recordOverall": {
+          "winPercentage": {
+            "formatted": ".000"
+          },
+          "formatted": "0-0"
+        },
+        "recordPostseason": {
+          "winPercentage": {
+            "formatted": ".000"
+          },
+          "rank": 5,
+          "formatted": "0-0"
+        },
+        "pointsFor": {
+          "formatted": "0"
+        },
+        "pointsAgainst": {
+          "formatted": "0"
+        },
+        "streak": {
+          "formatted": "-"
+        },
+        "waiverPosition": 2,
+        "draftPosition": 13,
+        "newItemCounts": {
+          "activityUnread": 8,
+          "messagesUnread": 2
+        },
+        "initials": "#G"
+      },
+      "home": {
+        "id": 63280,
+        "name": "How Are Ya Now?",
+        "sport": "NHL",
+        "logoUrl": "https://s3.amazonaws.com/fleaflicker/t63280_3_150x150.jpg",
+        "recordOverall": {
+          "winPercentage": {
+            "formatted": ".000"
+          },
+          "formatted": "0-0"
+        },
+        "recordPostseason": {
+          "winPercentage": {
+            "formatted": ".000"
+          },
+          "rank": 4,
+          "formatted": "0-0"
+        },
+        "pointsFor": {
+          "formatted": "0"
+        },
+        "pointsAgainst": {
+          "formatted": "0"
+        },
+        "streak": {
+          "formatted": "-"
+        },
+        "waiverPosition": 6,
+        "draftPosition": 9,
+        "initials": "HA"
+      },
+      "awayScore": {
+        "score": {
+          "formatted": "0"
+        }
+      },
+      "homeScore": {
+        "score": {
+          "formatted": "0"
+        }
+      }
+    },
+    {
+      "id": "3078102",
+      "away": {
+        "id": 63220,
+        "name": "Hughes for Hart",
+        "sport": "NHL",
+        "logoUrl": "https://s3.amazonaws.com/fleaflicker/t63220_3_150x150.jpg",
+        "recordOverall": {
+          "winPercentage": {
+            "formatted": ".000"
+          },
+          "formatted": "0-0"
+        },
+        "recordPostseason": {
+          "winPercentage": {
+            "formatted": ".000"
+          },
+          "rank": 13,
+          "formatted": "0-0"
+        },
+        "pointsFor": {
+          "formatted": "0"
+        },
+        "pointsAgainst": {
+          "formatted": "0"
+        },
+        "streak": {
+          "formatted": "-"
+        },
+        "waiverPosition": 14,
+        "draftPosition": 1,
+        "newItemCounts": {
+          "activityUnread": 13,
+          "messagesUnread": 2
+        },
+        "initials": "HF"
+      },
+      "home": {
+        "id": 63211,
+        "name": "I hate Joel Hofer",
+        "sport": "NHL",
+        "recordOverall": {
+          "winPercentage": {
+            "formatted": ".000"
+          },
+          "formatted": "0-0"
+        },
+        "recordPostseason": {
+          "winPercentage": {
+            "formatted": ".000"
+          },
+          "rank": 11,
+          "formatted": "0-0"
+        },
+        "pointsFor": {
+          "formatted": "0"
+        },
+        "pointsAgainst": {
+          "formatted": "0"
+        },
+        "streak": {
+          "formatted": "-"
+        },
+        "waiverPosition": 3,
+        "draftPosition": 12,
+        "newItemCounts": {
+          "messagesUnread": 1
+        },
+        "initials": "IH"
+      },
+      "awayScore": {
+        "score": {
+          "formatted": "0"
+        }
+      },
+      "homeScore": {
+        "score": {
+          "formatted": "0"
+        }
+      }
+    },
+    {
+      "id": "3078101",
+      "away": {
+        "id": 63224,
+        "name": "Up and Around the Benn",
+        "sport": "NHL",
+        "logoUrl": "https://s3.amazonaws.com/fleaflicker/t63224_3_150x150.jpg",
+        "recordOverall": {
+          "winPercentage": {
+            "formatted": ".000"
+          },
+          "formatted": "0-0"
+        },
+        "recordPostseason": {
+          "winPercentage": {
+            "formatted": ".000"
+          },
+          "rank": 9,
+          "formatted": "0-0"
+        },
+        "pointsFor": {
+          "formatted": "0"
+        },
+        "pointsAgainst": {
+          "formatted": "0"
+        },
+        "streak": {
+          "formatted": "-"
+        },
+        "waiverPosition": 8,
+        "draftPosition": 7,
+        "initials": "UA"
+      },
+      "home": {
+        "id": 63199,
+        "name": "Stokka Gladiators",
+        "sport": "NHL",
+        "logoUrl": "https://s3.amazonaws.com/fleaflicker/t63199_3_150x150.jpg",
+        "recordOverall": {
+          "winPercentage": {
+            "formatted": ".000"
+          },
+          "formatted": "0-0"
+        },
+        "recordPostseason": {
+          "winPercentage": {
+            "formatted": ".000"
+          },
+          "rank": 12,
+          "formatted": "0-0"
+        },
+        "pointsFor": {
+          "formatted": "0"
+        },
+        "pointsAgainst": {
+          "formatted": "0"
+        },
+        "streak": {
+          "formatted": "-"
+        },
+        "waiverPosition": 10,
+        "draftPosition": 5,
+        "newItemCounts": {
+          "activityUnread": 4,
+          "messagesUnread": 2
+        },
+        "initials": "SG"
+      },
+      "awayScore": {
+        "score": {
+          "formatted": "0"
+        }
+      },
+      "homeScore": {
+        "score": {
+          "formatted": "0"
+        }
+      }
+    },
+    {
+      "id": "3078100",
+      "away": {
+        "id": 63276,
+        "name": "Benny and the Jets",
+        "sport": "NHL",
+        "logoUrl": "https://s3.amazonaws.com/fleaflicker/t63276_3_150x150.jpg",
+        "recordOverall": {
+          "winPercentage": {
+            "formatted": ".000"
+          },
+          "formatted": "0-0"
+        },
+        "recordPostseason": {
+          "winPercentage": {
+            "formatted": ".000"
+          },
+          "rank": 6,
+          "formatted": "0-0"
+        },
+        "pointsFor": {
+          "formatted": "0"
+        },
+        "pointsAgainst": {
+          "formatted": "0"
+        },
+        "streak": {
+          "formatted": "-"
+        },
+        "waiverPosition": 5,
+        "draftPosition": 10,
+        "newItemCounts": {
+          "activityUnread": 5,
+          "messagesUnread": 2
+        },
+        "initials": "BA"
+      },
+      "home": {
+        "id": 63194,
+        "name": "Trey B",
+        "sport": "NHL",
+        "logoUrl": "https://s3.amazonaws.com/fleaflicker/t63194_3_150x150.jpg",
+        "recordOverall": {
+          "winPercentage": {
+            "formatted": ".000"
+          },
+          "formatted": "0-0"
+        },
+        "recordPostseason": {
+          "winPercentage": {
+            "formatted": ".000"
+          },
+          "rank": 1,
+          "formatted": "0-0"
+        },
+        "pointsFor": {
+          "formatted": "0"
+        },
+        "pointsAgainst": {
+          "formatted": "0"
+        },
+        "streak": {
+          "formatted": "-"
+        },
+        "waiverPosition": 13,
+        "draftPosition": 2,
+        "newItemCounts": {
+          "messagesUnread": 1
+        },
+        "initials": "TB"
+      },
+      "awayScore": {
+        "score": {
+          "formatted": "0"
+        }
+      },
+      "homeScore": {
+        "score": {
+          "formatted": "0"
+        }
+      }
+    },
+    {
+      "id": "3078106",
+      "away": {
+        "id": 63349,
+        "name": "tbd",
+        "sport": "NHL",
+        "logoUrl": "https://s3.amazonaws.com/fleaflicker/t63349_3_150x150.jpg",
+        "recordOverall": {
+          "winPercentage": {
+            "formatted": ".000"
+          },
+          "formatted": "0-0"
+        },
+        "recordPostseason": {
+          "winPercentage": {
+            "formatted": ".000"
+          },
+          "rank": 14,
+          "formatted": "0-0"
+        },
+        "pointsFor": {
+          "formatted": "0"
+        },
+        "pointsAgainst": {
+          "formatted": "0"
+        },
+        "streak": {
+          "formatted": "-"
+        },
+        "waiverPosition": 1,
+        "draftPosition": 14,
+        "newItemCounts": {
+          "activityUnread": 2,
+          "messagesUnread": 2
+        },
+        "initials": "T"
+      },
+      "home": {
+        "id": 63544,
+        "name": "If I Ran the Zoo",
+        "sport": "NHL",
+        "logoUrl": "https://s3.amazonaws.com/fleaflicker/t63544_3_150x150.jpg",
+        "recordOverall": {
+          "winPercentage": {
+            "formatted": ".000"
+          },
+          "formatted": "0-0"
+        },
+        "recordPostseason": {
+          "winPercentage": {
+            "formatted": ".000"
+          },
+          "rank": 10,
+          "formatted": "0-0"
+        },
+        "pointsFor": {
+          "formatted": "0"
+        },
+        "pointsAgainst": {
+          "formatted": "0"
+        },
+        "streak": {
+          "formatted": "-"
+        },
+        "waiverPosition": 7,
+        "draftPosition": 8,
+        "newItemCounts": {
+          "activityUnread": 2
+        },
+        "initials": "II"
+      },
+      "awayScore": {
+        "score": {
+          "formatted": "0"
+        }
+      },
+      "homeScore": {
+        "score": {
+          "formatted": "0"
+        }
+      }
+    },
+    {
+      "id": "3078105",
+      "away": {
+        "id": 63352,
+        "name": "Straight Cash Homie",
+        "sport": "NHL",
+        "logoUrl": "https://s3.amazonaws.com/fleaflicker/t63352_3_150x150.jpg",
+        "recordOverall": {
+          "winPercentage": {
+            "formatted": ".000"
+          },
+          "formatted": "0-0"
+        },
+        "recordPostseason": {
+          "winPercentage": {
+            "formatted": ".000"
+          },
+          "rank": 7,
+          "formatted": "0-0"
+        },
+        "pointsFor": {
+          "formatted": "0"
+        },
+        "pointsAgainst": {
+          "formatted": "0"
+        },
+        "streak": {
+          "formatted": "-"
+        },
+        "waiverPosition": 12,
+        "draftPosition": 3,
+        "newItemCounts": {
+          "activityUnread": 9,
+          "messagesUnread": 2
+        },
+        "initials": "SC"
+      },
+      "home": {
+        "id": 63382,
+        "name": "Cow Tipping Mafia",
+        "sport": "NHL",
+        "logoUrl": "https://s3.amazonaws.com/fleaflicker/t63382_3_150x150.jpg",
+        "recordOverall": {
+          "winPercentage": {
+            "formatted": ".000"
+          },
+          "formatted": "0-0"
+        },
+        "recordPostseason": {
+          "winPercentage": {
+            "formatted": ".000"
+          },
+          "rank": 8,
+          "formatted": "0-0"
+        },
+        "pointsFor": {
+          "formatted": "0"
+        },
+        "pointsAgainst": {
+          "formatted": "0"
+        },
+        "streak": {
+          "formatted": "-"
+        },
+        "waiverPosition": 4,
+        "draftPosition": 11,
+        "initials": "CT"
+      },
+      "awayScore": {
+        "score": {
+          "formatted": "0"
+        }
+      },
+      "homeScore": {
+        "score": {
+          "formatted": "0"
+        }
+      }
+    },
+    {
+      "id": "3078104",
+      "away": {
+        "id": 63362,
+        "name": "Big Johnsons",
+        "sport": "NHL",
+        "logoUrl": "https://s3.amazonaws.com/fleaflicker/t63362_3_150x150.jpg",
+        "recordOverall": {
+          "winPercentage": {
+            "formatted": ".000"
+          },
+          "formatted": "0-0"
+        },
+        "recordPostseason": {
+          "winPercentage": {
+            "formatted": ".000"
+          },
+          "rank": 2,
+          "formatted": "0-0"
+        },
+        "pointsFor": {
+          "formatted": "0"
+        },
+        "pointsAgainst": {
+          "formatted": "0"
+        },
+        "streak": {
+          "formatted": "-"
+        },
+        "waiverPosition": 11,
+        "draftPosition": 4,
+        "initials": "BJ"
+      },
+      "home": {
+        "id": 63381,
+        "name": "DARK BRANDON(tanev)",
+        "sport": "NHL",
+        "logoUrl": "https://s3.amazonaws.com/fleaflicker/t63381_3_150x150.jpg",
+        "recordOverall": {
+          "winPercentage": {
+            "formatted": ".000"
+          },
+          "formatted": "0-0"
+        },
+        "recordPostseason": {
+          "winPercentage": {
+            "formatted": ".000"
+          },
+          "rank": 3,
+          "formatted": "0-0"
+        },
+        "pointsFor": {
+          "formatted": "0"
+        },
+        "pointsAgainst": {
+          "formatted": "0"
+        },
+        "streak": {
+          "formatted": "-"
+        },
+        "waiverPosition": 9,
+        "draftPosition": 6,
+        "newItemCounts": {
+          "activityUnread": 2,
+          "messagesUnread": 2
+        },
+        "initials": "DB"
+      },
+      "awayScore": {
+        "score": {
+          "formatted": "0"
+        }
+      },
+      "homeScore": {
+        "score": {
+          "formatted": "0"
+        }
+      }
+    }
+  ]
+}

@@ -3,7 +3,7 @@ import csv
 import json
 
 from constants import OFF_DAYS, SCHEDULE_COLS, SCHEDULE_FP_23_24
-from utils import get_dates_for_week_key
+from helpers import get_dates_for_week_key
 
 
 class ScheduleTools:
@@ -17,7 +17,7 @@ class ScheduleTools:
 
     self.view_counts(team_counts)
 
-  def team_games_in_week(self, week_key, team_counts={}):
+  def team_games_in_week(self, week_key, team_counts={}, print_results=False):
     """ Get counts of total games played, and total off-day games, by team."""
     print('running week', week_key)
     d_range = set(get_dates_for_week_key(week_key))
@@ -32,6 +32,9 @@ class ScheduleTools:
             team_counts[row[k]]['total_games'] += 1
             if row[SCHEDULE_COLS.DAY] in OFF_DAYS:
               team_counts[row[k]]['offdays'] += 1
+
+    if print_results:
+      self.view_counts(team_counts)
 
   def view_counts(self, team_counts):
     """ Print out the counts object (output of team_games_in_week functions)"""
@@ -48,7 +51,7 @@ class ScheduleTools:
       team_name = team_obj[0]
       offdays = team_obj[1]['offdays']
       tot = team_obj[1]['total_games']
-      print(f'{team_name} - {offdays} offdays, {tot} total games')
+      print(f'{team_name} - {offdays} offday games, {tot} total games')
 
 
 if __name__ == '__main__':
@@ -60,4 +63,4 @@ if __name__ == '__main__':
   if ',' in args.week:
     handler.team_games_in_many_weeks(args.week.split(','))
   else:
-    handler.team_games_in_week(args.week)
+    handler.team_games_in_week(args.week, print_results=True)
