@@ -1,28 +1,29 @@
-import argparse
 import csv
 import json
 
-from constants import OFF_DAYS, SCHEDULE_COLS, SCHEDULE_FP_23_24
-from helpers import get_dates_for_week_key
+import click
+from fhockey.constants import OFF_DAYS, SCHEDULE_COLS
+from fhockey.helpers import get_dates_for_week_key
+from fhockey.utils import get_path
 
 
 class ScheduleTools:
 
-  def team_games_in_many_weeks(self, week_keys_list):
+  def team_games_in_many_weeks(self, week_keys_list, season):
     """ Run team_games_in_week multiple times, aggregating results """
     print('running weeks', week_keys_list)
     team_counts = {}
     for week_key in week_keys_list:
-      self.team_games_in_week(week_key, team_counts)
+      self.team_games_in_week(week_key, season, team_counts=team_counts)
 
     self.view_counts(team_counts)
 
-  def team_games_in_week(self, week_key, team_counts={}, print_results=False):
+  def team_games_in_week(self, week_key, season, team_counts={}, print_results=False):
     """ Get counts of total games played, and total off-day games, by team."""
-    print('running week', week_key)
-    d_range = set(get_dates_for_week_key(week_key))
+    d_range = set(get_dates_for_week_key(week_key, season))
 
-    with open(SCHEDULE_FP_23_24, 'r') as csvfile:
+    fp = get_path(f'res/{season}_schedule.csv')
+    with open(fp, 'r') as csvfile:
       csvreader = csv.DictReader(csvfile, delimiter=',')
       for row in csvreader:
         if row[SCHEDULE_COLS.DATE] in d_range:
@@ -54,13 +55,19 @@ class ScheduleTools:
       print(f'{team_name} - {offdays} offday games, {tot} total games')
 
 
-if __name__ == '__main__':
-  parser = argparse.ArgumentParser(description='Run some useful commands')
-  parser.add_argument('-w', '--week', help='The week(s) to check', required=True)
-  args = parser.parse_args()
-
+@click.command()
+@click.option('--week', '-w', required=True, help='The week(s) to check')
+@click.option(
+  '--season',
+  '-s',
+  default='2023-2024',
+  type=click.Choice(['2023-2024']),
+  help='The NHL season'
+)
+def schedule(week, season):
+  """View game counts by team"""
   handler = ScheduleTools()
-  if ',' in args.week:
-    handler.team_games_in_many_weeks(args.week.split(','))
+  if ',' in week:
+    handler.team_games_in_many_weeks(week.split(','), season)
   else:
-    handler.team_games_in_week(args.week, print_results=True)
+    handler.team_games_in_week(week, season, print_results=True)
